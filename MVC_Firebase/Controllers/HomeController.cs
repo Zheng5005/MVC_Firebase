@@ -39,9 +39,9 @@ namespace MVC_Firebase.Controllers
 
             //Configuramos la conexion hacia FireBase
             string email = "fernando.gomez@catolica.edu.sv";  //Correo para autenticar en Firebase
-            string clave = "UNICAES";  //Contraseña establecida en la autenticar en FireBase
+            string clave = "";  //Contraseï¿½a establecida en la autenticar en FireBase
             string ruta = "mvcfirebase-112f1.appspot.com";  //URL donde se guardan los archivos
-            string api_key = "AIzaSyDaXrwQqeOcFjBmS_hq5Rvr3uQgBZJHkTk";  //API_KEY identificador del proyecto en FireBase
+            string api_key = "";  //API_KEY identificador del proyecto en FireBase
 
             //Autentificacion a FireBase
             var auth = new FirebaseAuthProvider(new FirebaseConfig(api_key));  //Indicamos la api_key del proyecto
